@@ -1,5 +1,5 @@
 {
-  "name": "@aaron/location-discussions",
+  "name": "@dianmx/location-discussions",
   "version": "0.0.0",
   "private": true,
   "prettier": "@flarum/prettier-config",

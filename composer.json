@@ -1,5 +1,5 @@
 {
-    "name": "aaron/location-discussions",
+    "name": "dianmx/location-discussions",
     "description": "show discussions based on user's location",
     "keywords": [
         "flarum","flarum extensions"
@@ -21,12 +21,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Aaron\\LocationDiscussions\\": "src/"
+            "Dianmx\\LocationDiscussions\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aaron\\LocationDiscussions\\Tests\\": "tests/"
+            "Dianmx\\LocationDiscussions\\Tests\\": "tests/"
         }
     },
     "extra": {

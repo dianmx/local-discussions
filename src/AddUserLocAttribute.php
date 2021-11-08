@@ -1,6 +1,6 @@
 <?php
 
-namespace Aaron\LocationDiscussions;
+namespace Dianmx\LocationDiscussions;
 
 use Flarum\Api\Serializer\UserSerializer;
 use Flarum\User\User;

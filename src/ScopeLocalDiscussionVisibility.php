@@ -1,6 +1,6 @@
 <?php
 
-namespace Aaron\LocationDiscussions;
+namespace Dianmx\LocationDiscussions;
 
 use Flarum\User\User;
 use Illuminate\Database\Eloquent\Builder;
