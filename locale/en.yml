@@ -1,0 +1,16 @@
+aaron-location-discussions:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n.html#appendix-a-standard-key-format
+  admin:
+    my_cool_key: My Cool Key
+
+  forum:
+    local: Local Discussions
+    global: All Discussions
+    settings:
+      change_location_button: Change Location
+      submit_button: => core.ref.save_changes
+    change_location:
+      title: Change Location
+      province_label: Province
+      city_label: City

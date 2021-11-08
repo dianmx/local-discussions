@@ -1,0 +1,58 @@
+{
+    "name": "aaron/location-discussions",
+    "description": "show discussions based on user's location",
+    "keywords": [
+        "flarum","flarum extensions"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Aaron Wang",
+            "email": "wangarron1030@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aaron\\LocationDiscussions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aaron\\LocationDiscussions\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Local Discussions",
+            "category": "",
+            "icon": {
+                "name": "fas fa-globe-asia",
+                "backgroundColor": "#9ce8dcff",
+                "color": "#c93f00"
+            }
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    }
+}
