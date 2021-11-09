@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Aaron\LocationDiscussions;
+namespace Dianmx\LocationDiscussions;
 
 use Flarum\Api\Serializer\UserSerializer;
 use Flarum\Discussion\Discussion;
